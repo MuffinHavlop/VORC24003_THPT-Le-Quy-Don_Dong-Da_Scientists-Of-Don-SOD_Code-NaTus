@@ -50,7 +50,7 @@ void loop()
     }
     else
     {
-        pwm.setPWM(13, 0, 0);
+        pwm.setPWM(13, 0, 0);        //Tắt động cơ khi Joystick bằng 0
         pwm.setPWM(12, 0, 0);
     }
 
